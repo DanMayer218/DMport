@@ -1,20 +1,20 @@
 #header-logo {
-  /* margin-top: 10px; */
+  margin-top: 10px;
   opacity: 0.8;
 }
 .nava {
-  font-family: "jura", sans-serif;
-  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
   color: white;
-  letter-spacing: 5px;
-  margin-bottom: 5px;
+  letter-spacing: 15px;
+  /* margin-bottom: 5px; */
 }
 .navp {
-  font-family: "jura", sans-serif;
-  font-size: 2px;
+  font-family: "Syncopate", sans-serif;
+  font-size: 29px;
   color: white;
-  letter-spacing: 5px;
-  margin-bottom: 5px;
+  letter-spacing: 8px;
+  /* margin-bottom: 5px; */
 }
 .s-header {
   height: 100px;
@@ -27,13 +27,13 @@
 }
 .navname {
   margin-left: 50px;
-  /* margin-top: 7px; */
+  margin-top: 10px;
   align-content: center;
-  font-family: "jura", sans-serif;
+  font-family: "Syncopate", sans-serif;
   font-size: 7px;
   line-height: 2px;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: 20px;
 }
 h2 {
   font-family: "Work Sans", sans-serif;
