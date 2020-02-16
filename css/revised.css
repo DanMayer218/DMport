@@ -138,31 +138,35 @@ col-1 {
   background-image: url(../images/astronot_copy.png);
   background-size: cover;
   width: 33%;
+  border: 1px solid black;
   /* position: relative; */
 }
 col-2 {
   background-image: url(../images/prism.png);
   background-size: cover;
   width: 33%;
+  border: 1px solid black;
 }
 col-3 {
   background-image: url(../images/433.png);
   background-size: cover;
   width: 33%;
+  border: 1px solid black;
+
   /* position: relative; */
 }
 
 .linkbutt {
-  background-color: rgba(61, 61, 61, 0.199);
+  background-color: rgba(139, 139, 139, 0.603);
   bottom: 40px;
   /* font-family: "jura", sans-serif; */
 
   font-family: "Work Sans", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: 10px;
   height: 120px;
   width: 100%;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 90%;
 }
