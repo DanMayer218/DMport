@@ -82,7 +82,20 @@
 .fade-carousel .slides .slide-20aa,
 .fade-carousel .slides .slide-21aa,
 .fade-carousel .slides .slide-22aa,
-.fade-carousel .slides .slide-23aa {
+.fade-carousel .slides .slide-23aa,
+.fade-carousel .slides .slide-24aa,
+.fade-carousel .slides .slide-25aa,
+.fade-carousel .slides .slide-26aa,
+.fade-carousel .slides .slide-27aa,
+.fade-carousel .slides .slide-28aa,
+.fade-carousel .slides .slide-29aa,
+.fade-carousel .slides .slide-30aa,
+.fade-carousel .slides .slide-31aa,
+.fade-carousel .slides .slide-32aa,
+.fade-carousel .slides .slide-34aa,
+.fade-carousel .slides .slide-35aa,
+.fade-carousel .slides .slide-36aa,
+.fade-carousel .slides .slide-37aa {
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -112,22 +125,22 @@
   background-size: contain;
 }
 .fade-carousel .slides .slide-7aa {
-  background-image: url(images/landscape_image1/IMG_7041.JPG);
+  background-image: url(images/landscape_image1/96thStreet.png);
   background-size: contain;
 }
 .fade-carousel .slides .slide-8aa {
-  background-image: url(images/landscape_image1/ruddpanarama.png);
+  background-image: url(images/landscape_image1/Spamerover.png);
   background-size: contain;
 }
 .fade-carousel .slides .slide-9aa {
-  background-image: url(images/landscape_image1/hibiscus2_lg.png);
+  background-image: url(images/landscape_image1/340East75th.PNG);
   background-size: contain;
 }
 .fade-carousel .slides .slide-10aa {
-  background-image: url(images/artworkgall/red_record_lgpng.png);
+  background-image: url(images/landscape_image1/Brevoort-wb-opt-2.jpg);
 }
 .fade-carousel .slides .slide-11aa {
-  background-image: url(images/landscape_image1/HamshawStoneStairs.JPG);
+  background-image: url(images/landscape_image1/Sovereign2.png);
   background-size: contain;
 }
 .fade-carousel .slides .slide-12aa {
@@ -135,7 +148,7 @@
   background-size: contain;
 }
 .fade-carousel .slides .slide-13aa {
-  background-image: url(images/landscape_image1/60Sutton.JPGå);
+  background-image: url(images/landscape_image1/60Sutton.JPG);
   background-size: contain;
 }
 .fade-carousel .slides .slide-14aa {
@@ -159,7 +172,7 @@
   background-size: contain;
 }
 .fade-carousel .slides .slide-19aa {
-  background-image: url(images/landscape_image1/generalworkint_08112016_6.PNG);
+  background-image: url(images/landscape_image1/25fithpano.jpg);
   background-size: contain;
   position: center;
 }
@@ -177,6 +190,62 @@
 }
 .fade-carousel .slides .slide-23aa {
   background-image: url(images/landscape_image1/145Lexington.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-24aa {
+  background-image: url(images/landscape_image1/340roofRender.PNG);
+}
+.fade-carousel .slides .slide-25aa {
+  background-image: url(images/landscape_image1/IMG_1241.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-26aa {
+  background-image: url(images/landscape_image1/IMG_0080.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-27aa {
+  background-image: url(images/landscape_image1/IMG_0031.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-28aa {
+  background-image: url(images/landscape_image1/IMG_0271.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-29aa {
+  background-image: url(images/landscape_image1/IMG_0901.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-30aa {
+  background-image: url(images/landscape_image1/IMG_2494.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-31aa {
+  background-image: url(images/landscape_image1/IMG_3259(1).jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-32aa {
+  background-image: url(images/landscape_image1/IMG_3980-(2).jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-33aa {
+  background-image: url(images/landscape_image1/HamshawStoneStairs.JPG);
+  background-size: contain;
+  position: center;
+}
+.fade-carousel .slides .slide-34aa {
+  background-image: url(images/landscape_image1/Untitled.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-35aa {
+  background-image: url(images/landscape_image1/340playground.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-36aa {
+  background-image: url(images/landscape_image1/IMG_0889.jpg);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-37aa {
+  background-image: url(images/landscape_image1/Yorktownterr.jpg);
   background-size: contain;
 }
 
