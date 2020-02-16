@@ -74,14 +74,20 @@
     <header class="s-header">
       <div
         class="header-logo"
-        style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;"
+        style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;background-color: rgba(255, 255, 255, 0);height: 110px;position: absolute; top: 45px;"
       >
-        <a class="site-logo" id="rev-logo" href="index.html"
+        <a
+          class="site-logo"
+          id="rev-logo"
+          href="index.html"
+          style="position: absolute; top: 20px; left: 2px;"
           ><img src="images/new logo good 20 copy.png" alt="Homepage"
         /></a>
-        <div class="navname">
-          <h2>DANIEL MAYER</h2>
-          <h4>DESIGNER//DEVELOPER</h4>
+        <div class="navname" style="position: absolute; left: 50px;">
+          <h2 class="navp">DANIEL MAYER</h2>
+          <h4 class="nava">
+            DESIGNER//DEVELOPER
+          </h4>
         </div>
       </div>
 
@@ -94,14 +100,7 @@
             Go Back
           </button>
         </div>
-        <!-- <ul class="header-nav">
-          <li class="current">
-            <a class="smoothscroll" href="index.html" title="home">Home</a>
-          </li>
-        </ul> -->
       </nav>
-
-      <!-- <a class="header-menu-toggle" href="#0"><span>Menu</span></a> -->
     </header>
     <!-- end s-header -->
 
@@ -112,9 +111,6 @@
         data-interval="4000"
         id="bs-carousel"
       >
-        <!-- Overlay -->
-        <!-- <div class="overlay"></div> -->
-
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
@@ -128,7 +124,7 @@
           <li data-target="#bs-carousel" data-slide-to="8"></li>
         </ol>
 
-        <!-- Wrapper for slides -->
+        <!-- Slides Container -->
         <div class="carousel-inner">
           <div class="item slides active">
             <div class="slide-1"></div>
