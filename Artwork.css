@@ -101,8 +101,8 @@ Image credits: unsplash.com
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-.fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-1a,
+.fade-carousel .slides .slide-2a,
 .fade-carousel .slides .slide-3,
 .fade-carousel .slides .slide-4,
 .fade-carousel .slides .slide-5,
@@ -114,33 +114,33 @@ Image credits: unsplash.com
   background-position: center center;
   background-repeat: no-repeat;
 }
-.fade-carousel .slides .slide-1 {
-  background-image: url(./images/codingall1/PRISM.png);
+.fade-carousel .slides .slide-1a {
+  background-image: url(./images/artworkgall/astronot.png);
 }
-.fade-carousel .slides .slide-2 {
-  background-image: url(./images/codingall1/bootique.png);
+.fade-carousel .slides .slide-2a {
+  background-image: url(./images/artworkgall/bickle.png);
 }
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-3a {
   background-image: url(./images/codingall1/nodeyourcode2.png);
   background-size: cover;
   background-position: center;
 }
-.fade-carousel .slides .slide-4 {
+.fade-carousel .slides .slide-4a {
   background-image: url(./images/codingall1/vacayscreen.png);
 }
-.fade-carousel .slides .slide-5 {
+.fade-carousel .slides .slide-5a {
   background-image: url(./images/codingall1/bootique.png);
 }
-.fade-carousel .slides .slide-6 {
+.fade-carousel .slides .slide-6a {
   background-image: url(./images/codingall1/PRISM.png);
 }
-.fade-carousel .slides .slide-7 {
+.fade-carousel .slides .slide-7a {
   background-image: url(./images/codingall1/bootique.png);
 }
-.fade-carousel .slides .slide-8 {
+.fade-carousel .slides .slide-8a {
   background-image: url(./images/codingall1/bootique.png);
 }
-.fade-carousel .slides .slide-9 {
+.fade-carousel .slides .slide-9a {
   background-image: url(./images/codingall1/bootique.png);
 }
 
