@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/vendor.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/revised.css" />
-    <link rel="stylesheet" href="Landscape.css" />
+    <link rel="stylesheet" href="Artwork.css" />
 
     <!-- Google font link -->
     <link
@@ -52,8 +52,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
 
     <script>
       function goBack() {
@@ -64,21 +64,20 @@
 
   <body
     id="top"
-    style="padding-top: 120px;background-color: rgb(0, 0, 0);justify-content=center; align-content=center;"
+    style="padding-top: 110px;background-color: rgb(0, 0, 0);justify-content:center; align-content:center;"
   >
-    <!-- header
-    ================================================== -->
+    <!-- Header section -->
     <header class="s-header">
       <div
         class="header-logo"
-        style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;"
+        style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;background-color: rgba(255, 255, 255, 0);height: 100px;padding-top: 5px;"
       >
         <a class="site-logo" id="rev-logo" href="index.html"
           ><img src="images/new logo good 20 copy.png" alt="Homepage"
         /></a>
-        <div class="navname">
-          <h2>DANIEL MAYER</h2>
-          <h4>DESIGNER//DEVELOPER</h4>
+        <div class="navname" style="padding-bottom: 10px;align-content:center;">
+          <h2 class="navp">DANIEL MAYER</h2>
+          <h4 class="nava" style="margin-bottom:5px;">DESIGNER//DEVELOPER</h4>
         </div>
       </div>
 
@@ -91,17 +90,9 @@
             Go Back
           </button>
         </div>
-        <!-- <ul class="header-nav">
-          <li class="current">
-            <a class="smoothscroll" href="index.html" title="home">Home</a>
-          </li>
-        </ul> -->
       </nav>
-
-      <!-- <a class="header-menu-toggle" href="#0"><span>Menu</span></a> -->
     </header>
-    <!-- end s-header -->
-
+    <!-- End header section -->
     <div id="carodiv">
       <div
         class="carousel fade-carousel slide"
@@ -109,10 +100,7 @@
         data-interval="4000"
         id="bs-carousel"
       >
-        <!-- Overlay -->
-        <!-- <div class="overlay"></div> -->
-
-        <!-- Indicators -->
+        <!-- carousel navigational dots -->
         <ol class="carousel-indicators">
           <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#bs-carousel" data-slide-to="1"></li>
@@ -123,268 +111,120 @@
           <li data-target="#bs-carousel" data-slide-to="6"></li>
           <li data-target="#bs-carousel" data-slide-to="7"></li>
           <li data-target="#bs-carousel" data-slide-to="8"></li>
+          <li data-target="#bs-carousel" data-slide-to="9"></li>
+          <li data-target="#bs-carousel" data-slide-to="10"></li>
+          <li data-target="#bs-carousel" data-slide-to="11"></li>
+          <li data-target="#bs-carousel" data-slide-to="12"></li>
+          <li data-target="#bs-carousel" data-slide-to="13"></li>
+          <li data-target="#bs-carousel" data-slide-to="14"></li>
+          <li data-target="#bs-carousel" data-slide-to="15"></li>
+          <li data-target="#bs-carousel" data-slide-to="16"></li>
+          <li data-target="#bs-carousel" data-slide-to="17"></li>
+          <li data-target="#bs-carousel" data-slide-to="18"></li>
+          <li data-target="#bs-carousel" data-slide-to="19"></li>
+          <li data-target="#bs-carousel" data-slide-to="20"></li>
+          <li data-target="#bs-carousel" data-slide-to="21"></li>
+          <li data-target="#bs-carousel" data-slide-to="22"></li>
+          <li data-target="#bs-carousel" data-slide-to="23"></li>
         </ol>
 
-        <!-- Wrapper for slides -->
+        <!--Slide container -->
         <div class="carousel-inner">
           <div class="item slides active">
             <div class="slide-1a"></div>
-            <div class="hero">
-              <!-- <hgroup>
-                <h1>PRISM</h1>
-                <h2>Visualizing Large Sets of Geo-Spatial Data</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup> -->
-              <!-- <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button> -->
-            </div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
             <div class="slide-2a"></div>
-            <div class="hero">
-              <!-- <hgroup>
-                <h1>BOOtIQUE</h1>
-                <h2>A peer reviewed portfolio forum for Bootcamp students</h2>
-                <h4>
-                  BOOTIQUE is a MERN app that provides Coding Bootcamp students
-                  with a forum to exhibit their professional materials and work
-                  from class. The forum provides a creative environment for
-                  other students to post constructive criticism and share
-                  insights.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button> -->
-            </div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-3"></div>
-            <div class="hero">
-              <!-- <hgroup>
-                <h1>Node Your Code</h1>
-                <h2>Test your coding fundamentals</h2>
-                <h4>
-                  A coding Bootcamp project written in Javascript and meant to
-                  test your coding fundamentals.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button> -->
-            </div>
+            <div class="slide-3a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-4"></div>
-            <div class="hero">
-              <!-- <hgroup>
-                <h1>VACAY</h1>
-                <h2>Everything you need to know, Everywhere you want to go.</h2>
-                <h4>
-                  VACAY provides the professional traveller with an essential
-                  set of informative tools. Built upon a series of AJAX calls
-                  VACAY provides the user with local information, weather
-                  reports, currency exchange and maps for the travellers
-                  destination. Additionally there is an itiniery maker for the
-                  user to keep track of important travel information.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button> -->
-            </div>
+            <div class="slide-4a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-5"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>We are amazing</h1>
-                <h2>Get start your next awesome project</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-5a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-6"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>We are amazing</h1>
-                <h2>Get start your next awesome project</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-6a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-7"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>DANAZON</h1>
-                <h2>A COMMAND LINE INVENTORY AND SALES TRACKER</h2>
-                <h4>
-                  DANAZON is a app using the command line interface built with
-                  Node JS as a sales and inventory tracker.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-7a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-8"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>We are amazing</h1>
-                <h2>Get start your next awesome project</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-8a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-9"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>We are amazing</h1>
-                <h2>Get start your next awesome project</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-9a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-3"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>We are amazing</h1>
-                <h2>Get start your next awesome project</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-10a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-3"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>We are amazing</h1>
-                <h2>Get start your next awesome project</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-11a"></div>
+            <div class="hero"></div>
           </div>
           <div class="item slides">
-            <div class="slide-3"></div>
-            <div class="hero">
-              <hgroup>
-                <h1>We are amazing</h1>
-                <h2>Get start your next awesome project</h2>
-                <h4>
-                  PRISM is a visual tool that provides new perspectives on
-                  trends in property sales in New York City's five boroughs.
-                  PRISM harnesses Kepler GL to leverage over 200,000 property
-                  sales provided by NYC open data. Prism can accept diverse
-                  datasets that follow geo-spatial formats.
-                </h4>
-              </hgroup>
-              <button class="btn btn-hero btn-lg" role="button">
-                View the App
-              </button>
-              <button class="btn btn-hero btn-lg" role="button">
-                Source Code
-              </button>
-            </div>
+            <div class="slide-12a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-13a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-14a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-15a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-16a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-17a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-18a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-19a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-19a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-20a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-21a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-22a"></div>
+            <div class="hero"></div>
+          </div>
+          <div class="item slides">
+            <div class="slide-23a"></div>
+            <div class="hero"></div>
           </div>
         </div>
       </div>

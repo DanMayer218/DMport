@@ -1,12 +1,3 @@
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
-
-/********************************/
-/*       Fade Bs-carousel       */
-/********************************/
 .fade-carousel {
   position: relative;
   height: 80vh;
@@ -15,20 +6,18 @@ Image credits: unsplash.com
   height: 80vh;
 }
 .fade-carousel .carousel-indicators > li {
-  margin: 0 2px;
+  margin: 0 px;
   background-color: #f39c12;
   border-color: #f39c12;
   opacity: 0.7;
 }
 .fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   opacity: 1;
 }
 
-/********************************/
-/*          Hero Headers        */
-/********************************/
+/* Headers */
 .hero {
   position: absolute;
   top: 50%;
@@ -70,45 +59,30 @@ Image credits: unsplash.com
   transition: 2s all ease-in-out 0.1s;
 }
 
-/********************************/
-/*            Overlay           */
-/********************************/
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: #080d15;
-  opacity: 0.7;
-}
-
-/********************************/
-/*          Custom Buttons      */
-/********************************/
-.btn.btn-lg {
-  padding: 10px 40px;
-}
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
-  color: #f5f5f5;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
-  outline: none;
-  margin: 20px auto;
-}
-
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
+/* Slide backgrounds */
 .fade-carousel .slides .slide-1a,
 .fade-carousel .slides .slide-2a,
-.fade-carousel .slides .slide-3,
-.fade-carousel .slides .slide-4,
-.fade-carousel .slides .slide-5,
-.fade-carousel .slides .slide-6,
-.fade-carousel .slides .slide-7,
-.fade-carousel .slides .slide-8 {
+.fade-carousel .slides .slide-3a,
+.fade-carousel .slides .slide-4a,
+.fade-carousel .slides .slide-5a,
+.fade-carousel .slides .slide-6a,
+.fade-carousel .slides .slide-7a,
+.fade-carousel .slides .slide-8a,
+.fade-carousel .slides .slide-9a,
+.fade-carousel .slides .slide-10a,
+.fade-carousel .slides .slide-11a,
+.fade-carousel .slides .slide-12a,
+.fade-carousel .slides .slide-13a,
+.fade-carousel .slides .slide-14a,
+.fade-carousel .slides .slide-15a,
+.fade-carousel .slides .slide-16a,
+.fade-carousel .slides .slide-17a,
+.fade-carousel .slides .slide-18a,
+.fade-carousel .slides .slide-19a,
+.fade-carousel .slides .slide-20a,
+.fade-carousel .slides .slide-21a,
+.fade-carousel .slides .slide-22a,
+.fade-carousel .slides .slide-23a {
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -119,29 +93,91 @@ Image credits: unsplash.com
 }
 .fade-carousel .slides .slide-2a {
   background-image: url(./images/artworkgall/bickle.png);
+  background-size: contain;
 }
 .fade-carousel .slides .slide-3a {
-  background-image: url(./images/codingall1/nodeyourcode2.png);
-  background-size: cover;
-  background-position: center;
+  background-image: url(./images/artworkgall/samurai_sm.png);
+  background-size: contain;
 }
 .fade-carousel .slides .slide-4a {
-  background-image: url(./images/codingall1/vacayscreen.png);
+  background-image: url(images/artworkgall/onthecorner.PNG);
+  background-size: contain;
 }
 .fade-carousel .slides .slide-5a {
-  background-image: url(./images/codingall1/bootique.png);
+  background-image: url(images/artworkgall/poison.png);
+  background-size: contain;
 }
 .fade-carousel .slides .slide-6a {
-  background-image: url(./images/codingall1/PRISM.png);
+  background-image: url(images/artworkgall/family-huddle.png);
+  background-size: contain;
 }
 .fade-carousel .slides .slide-7a {
-  background-image: url(./images/codingall1/bootique.png);
+  background-image: url(images/artworkgall/Glowfish.png);
+  background-size: contain;
 }
 .fade-carousel .slides .slide-8a {
-  background-image: url(./images/codingall1/bootique.png);
+  background-image: url(images/artworkgall/eye1_lg.png);
+  background-size: contain;
 }
 .fade-carousel .slides .slide-9a {
-  background-image: url(./images/codingall1/bootique.png);
+  background-image: url(images/artworkgall/skeletal.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-10a {
+  background-image: url(images/artworkgall/red_record_lgpng.png);
+}
+.fade-carousel .slides .slide-11a {
+  background-image: url(images/artworkgall/multihead_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-12a {
+  background-image: url(images/artworkgall/kenny_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-13a {
+  background-image: url(images/artworkgall/babyhead_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-14a {
+  background-image: url(images/artworkgall/citystreet1.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-15a {
+  background-image: url(images/artworkgall/sittingbymyself.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-16a {
+  background-image: url(images/artworkgall/painterly_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-17a {
+  background-image: url(images/artworkgall/woodheads1_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-18a {
+  background-image: url(images/artworkgall/Enola-gray.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-19a {
+  background-image: url(images/artworkgall/astronaut1_lg.png);
+  background-size: contain;
+  position: center;
+}
+.fade-carousel .slides .slide-20a {
+  background-image: url(images/artworkgall/cityscape.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-21a {
+  background-image: url(images/artworkgall/headbag_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-22a {
+  background-image: url(images/artworkgall/Grinder_lg.png);
+  background-size: contain;
+}
+.fade-carousel .slides .slide-23a {
+  background-image: url(images/artworkgall/venonymous.png);
+  background-size: contain;
 }
 
 /********************************/
