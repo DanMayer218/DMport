@@ -79,13 +79,13 @@ col-1 {
   /* position: relative; */
 }
 col-2 {
-  background-image: url(../images/prism.png);
+  background-image: url(images/Prism.png);
   background-size: cover;
   width: 33%;
   border: 1px solid black;
 }
 col-3 {
-  background-image: url(../images/433.png);
+  background-image: url(images/433.PNG);
   background-size: cover;
   width: 33%;
   border: 1px solid black;
